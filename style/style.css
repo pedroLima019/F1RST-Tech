@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f1f6fc31;
+}
+
+section,
+footer {
+  padding: 54px 0;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+p {
+  color: #0000009c;
+}
+
+header {
+  background-image: url(../img/background-home.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.btn {
+  background-color: #4f9cf9;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: #3580db;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+nav ul a {
+  color: white;
+  margin: 0 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+}
+
+nav ul a:not(.btn):after {
+  content: " ";
+  background-color: white;
+  height: 2px;
+  width: 0;
+  display: block;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+nav ul a:hover::after {
+  width: 100%;
+}
+
+nav a h1 {
+  color: white;
+  font-size: 30px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-text {
+  margin: 150px;
+  text-align: center;
+  padding: 0 90px;
+}
+
+.banner-text h1 {
+  font-size: 96px;
+  color: white;
+}
+
+.banner-text p {
+  font-size: 20px;
+  color: #ffffb7;
+  font-weight: lighter;
+  margin: 18px 0;
+}
+
+/* faça mais*/
+
+.faca-mais .container {
+  display: flex;
+  align-items: center;
+}
+
+.faca-mais .faca-mais-text {
+  width: 50%;
+  padding: 0 40px;
+}
+
+.faca-mais .faca-mais-text h3 {
+  font-size: 56px;
+}
+
+.faca-mais .faca-mais-text p {
+  margin: 5px 0 10px 0;
+}
+
+.faca-mais .faca-mais-img {
+  width: 50%;
+}
+
+.faca-mais .faca-mais-img img {
+  width: 100%;
+}
+
+/*Depoimentos*/
+
+.depoimentos h3 {
+  text-align: center;
+}
+
+.depoimentos p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card-item {
+  background-color: #d3e6fd;
+  margin: 15px;
+  border-radius: 14px;
+  text-align: center;
+  width: 350px;
+}
+
+.card-item img {
+  border-radius: 100px;
+  width: 80px;
+  display: block;
+  margin: 20px auto;
+}
+
+.nome-user {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: black;
+  transition: 0.3s;
+}
+
+.depoimentos-user {
+  font-size: 15px;
+  padding: 0 15px;
+  transition: 0.3s;
+}
+
+.estrelas {
+  margin: 15px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.315);
+}
+
+.estrelas i {
+  color: #4f9cf9;
+  margin-top: 15px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.card-item:hover {
+  background-color: #4f9cf9;
+  transition: 0.3s;
+  margin-top: -5px;
+}
+
+.card-item:hover .depoimento-user,
+.card-item .estrelas i {
+  color: white;
+}
+
+/*Clientes*/
+
+.clientes h3,
+p {
+  text-align: center;
+}
+
+.logo-cliente {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*Foooter*/
+
+.footer {
+  background-color: #4f9cf9;
+  text-align: center;
+}
+
+.footer i {
+  color: #4f9cf9;
+  font-size: 19px;
+  background: white;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 15px;
+}
+
+.footer p {
+  margin-top: 10px;
+  color: white;
+  font-weight: 400;
+  font-style: italic;
+}
+
