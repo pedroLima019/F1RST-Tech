@@ -1,0 +1,85 @@
+/*Pagina serviços*/
+
+.servicos h3 {
+  text-align: center;
+}
+
+.servicos .container p {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.row-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.row-card-item {
+  background-color: #7eb5f7;
+  width: 300px;
+  padding: 20px;
+  border-radius: 14px;
+  margin: 20px;
+}
+
+.row-card-item:hover p {
+  color: white;
+  transition: 0.5s;
+}
+
+.row-card-item:hover {
+  background-color: #2f87f3;
+  color: white;
+  transition: 0.3s;
+}
+
+.row-cards img {
+  border-radius: 14px;
+  width: 70px;
+}
+
+.nome-servico {
+  margin: 5px 0;
+}
+
+.decricao-servico {
+  transition: 0.3s;
+}
+
+/*Dados*/
+
+.dados {
+  background-color: #d3e6fd;
+}
+
+.dados .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dados-item {
+  text-align: center;
+  margin: 15px;
+  color: #000000be;
+}
+
+.dados-item img {
+  background-color: #4f9cf9;
+  border-radius: 14px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 80px;
+}
+
+.dados-item p {
+  font-size: 15px;
+}
+
+.dados-item p strong {
+  font-size: 25px;
+}

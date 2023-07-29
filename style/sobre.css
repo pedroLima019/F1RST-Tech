@@ -1,0 +1,23 @@
+
+
+.sobre .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sobre .sobre-text {
+  width: 50%;
+  padding-right: 40px;
+}
+
+.sobre .sobre-text p {
+  margin: 18px 0;
+  color: #000000a6;
+  text-align: justify;
+}
+
+.sobre .sobre-img {
+  width: 50%;
+  border-radius: 10px;
+}
