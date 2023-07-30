@@ -98,13 +98,9 @@
     flex-direction: column-reverse;
   }
 
-  .contato-info .right-side,
   .contato-info .left-side{
-   width: 100%;
-  }
-
-  .contato-info .right-side{
-    margin-bottom: 30px;
+    width: 80%;
+    align-items: center;
   }
 
 }
