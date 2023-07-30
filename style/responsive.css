@@ -100,8 +100,7 @@
 
   .contato-info .left-side{
     width: 80%;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin: auto;
   }
 
 }
